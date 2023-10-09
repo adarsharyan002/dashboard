@@ -21,7 +21,7 @@ const Main = () => {
             <Navbar/>
             <Header/>
             <Events/>
-            <button onClick={openModal}>Open Modal</button>
+            <button className="circular-btn-modal" onClick={openModal}>Add Events</button>
              <Modal isOpen={modalIsOpen} onClose={closeModal}></Modal>
         </div>
      );

@@ -292,7 +292,22 @@ box-shadow:  5px 5px 10px #cecece,
              -5px -5px 10px #f2f2f2;
   }
 
+
   /* Modal.css */
+
+  .circular-btn-modal{
+    position: fixed;
+    bottom: 3.5vh;
+    right: 8vh;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px white solid;
+    background-color: #FF6384;
+    color: white;
+box-shadow:  5px 5px 10px #cecece,
+             -5px -5px 10px #f2f2f2;
+  }
 .modal-overlay {
   position: fixed;
   top: 0;
